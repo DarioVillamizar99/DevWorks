@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 7/04/2024, 4:08:13 p. m.
+    Author     : Usuario
+*/
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #0d0b09;
+}
+
+/* Estilos de la barra lateral */
+.sidebar {
+    background-color: #E09104;
+    color: #000;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#logoF {
+    width: 150px;
+    height: 150px;
+}
+
+#boton-logo {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none; /* Para eliminar el borde */
+    padding: 0; /* Para eliminar el relleno */
+    margin: 0; /* Para eliminar los márgenes */
+    cursor: pointer;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.menu li {
+    margin-bottom: 40px; /* Separación adicional entre elementos del menú */
+    border-bottom: 1px solid #000;
+    font-size: 1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000; /* Color negro */
+}
+
+/* Estilos del contenido principal */
+.content {
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Coloca el elemento en la parte superior de la ventana */
+    right: 0; /* Alinea el elemento a la derecha */
+    padding: 10px;
+    background-color: #E09104;
+    width: 80%;
+
+}
+
+.header {
+    text-align: right;
+    margin-bottom: 20px;
+    left: -75px;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: #000; /* Color negro */
+    margin-left: 15px;
+}
+
+.column{
+    height: 500px;
+    position: fixed;
+    top: 0;
+}
+
+.left {
+    width: 20%;
+}
