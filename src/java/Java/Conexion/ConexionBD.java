@@ -22,16 +22,12 @@ public class ConexionBD {
     private String username = "";
     private String password = "";
     public Connection con = null;
-    private Statement stmt = null;
-    private PreparedStatement pstmt = null;
-    private ResultSet rs = null;
-    private boolean local;
     
     //Contructor sin parametros
     public ConexionBD(){
         DB_driver = "com.mysql.cj.jdbc.Driver";
         host = "localhost:3307";
-        db = "CalumetProyect";
+        db = "ProyectoCalumet";
         url = "jdbc:mysql://"+ host + "/" + db +"?serverTimezone=UTC";
         username = "root";
         password = "1234";

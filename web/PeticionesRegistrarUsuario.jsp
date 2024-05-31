@@ -27,7 +27,6 @@
             String Nombre_usu = request.getParameter("Nombre_usu");
             String Contrasena = request.getParameter("Contrasena");
             Usuario u = new Usuario_dao().validarUsu(Nombre_usu, Contrasena);
-            //System.out.println(u.getNombre_usu() + Nombre_usu);
             if (Nombre_usu.equals(u.getNombre_usu())) {
                 respuesta += "\"" + proceso + "\":true";
             } else {
@@ -60,6 +59,6 @@
 
     respuesta += "}";
     response.setContentType("application/json;charset=iso-8859-1");
-    out.print(respuesta);
-
+    out.print(respuesta); 
+    
 %>

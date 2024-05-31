@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19/05/2024, 8:57:45 a. m.
+    Author     : Usuario
+*/
+
+.container-pr {
+    position: relative;
+    width: 100%;
+    display: flex;
+    max-width: 400px;
+    height: 100vh;
+    left: 500px;
+}
+
+.container-agregar {
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #976001;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: transparent;
+    text-align: center;
+
+}
+
+.content-sala input{
+    background-color: #ccc;
+    border: none;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 70%;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.content-sala input:hover{
+    background-color: #eee;
+}
+
+.content-sala {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.container-mostrar {
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #976001;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    left: 500px;
+}
+
+.content-sala table {
+    width: 95%;
+    padding: 5px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Estilos para la lista de botones */
+ul.btn {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.botones {
+    margin-top: 25px;
+    align-items: center;
+    width: auto;
+}
+/* Estilos para los botones */
+ul.btn li button {
+    display: flex;
+    background-color: #FF8801;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Estilo adicional para el icono */
+ul.btn li button .fas {
+    margin-right: 8px; /* Espaciado entre el icono y el texto */
+    font-size: 18px; /* Tamaño del icono */
+}
+
+/* Estilo para el estado de hover */
+ul.btn li button:hover {
+    background-color: #B9751C; /* Color de fondo del botón cuando se pasa el ratón por encima */
+}
